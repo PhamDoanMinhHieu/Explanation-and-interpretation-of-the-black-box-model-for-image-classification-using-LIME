@@ -9,6 +9,7 @@ Mô hình phân loại 6 lại rác thải:
 6. trash  
 ![Kết quả giả thích phân lại rác thải chai thủy tinh](layout/result_2.jpg)
 ![Kết quả giả thích phân lại bìa cứng ](layout/result_1.jpg)
+![Kết quả giả thích phân lại thủy tinh ](layout/result_3.jpg)
 # 🎯 Giới thiệu  
 Mặc dù các mô hình deep learning đạt độ chính xác cao, chúng thường hoạt động như "hộp đen" - khó hiểu được lý do đưa ra dự đoán. LIME giải quyết vấn đề này bằng cách:  
 + ✅ Giải thích bất kỳ mô hình phân loại ảnh nào (model-agnostic).    
@@ -20,7 +21,7 @@ Mặc dù các mô hình deep learning đạt độ chính xác cao, chúng thư
 Bài báo gốc: "Why Should I Trust You?" Explaining the Predictions of Any Classifier
 Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
 KDD 2016  
-Link bài báo: file:///E:/Research/1602.04938v3.pdf  
+Link bài báo: https://arxiv.org/abs/1602.04938   
 
 # 🔬 Cơ chế hoạt động  
 LIME hoạt động qua 4 bước chính:  
