@@ -1,5 +1,12 @@
 # Explanation and interpretation of the black box model for image classification using LIME
-Một triển khai đầy đủ của thuật toán LIME (Local Interpretable Model-agnostic Explanations) cho bài toán phân loại ảnh, sử dụng mobilenet_v3_small làm mô hình hộp đen và Ridge Regression làm mô hình giải thích cục bộ.  
+Một triển khai đầy đủ của thuật toán LIME (Local Interpretable Model-agnostic Explanations) cho bài toán phân loại ảnh rác thải, sử dụng mobilenet_v3_small làm mô hình hộp đen và Ridge Regression làm mô hình giải thích cục bộ.  
+Mô hình phân loại 6 lại rác thải: 
+1. cardboard  
+2. glass  
+3. metal  
+4. paper  
+5. plastic  
+6. trash  
 ![Kết quả giả thích phân lại rác thải chai thủy tinh](layout/result_2.jpg)
 ![Kết quả giả thích phân lại bìa cứng ](layout/result_1.jpg)
 # 🎯 Giới thiệu  
@@ -12,7 +19,8 @@ Mặc dù các mô hình deep learning đạt độ chính xác cao, chúng thư
 ![](layout/image_1.jpg)
 Bài báo gốc: "Why Should I Trust You?" Explaining the Predictions of Any Classifier
 Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
-KDD 2016
+KDD 2016  
+Link bài báo: file:///E:/Research/1602.04938v3.pdf  
 
 # 🔬 Cơ chế hoạt động  
 LIME hoạt động qua 4 bước chính:  
@@ -42,5 +50,6 @@ LIME hoạt động qua 4 bước chính:
 + positive_only: Chỉ hiện superpixels đóng góp tích cực.  
 
 # Mô hình phân lại rác thải
-Lấy trọng số mô hình ngay tại đây: [](checkpoints/best_model_finetune.pth)
+Lấy trọng số mô hình ngay tại đây: checkpoints/best_model_finetune.pth  
+
 
