@@ -1,4 +1,4 @@
-# Explanation and interpretation of the black box model for image classification using LIME
+# Explanation and interpretation of the black box model for trash classification using LIME
 Một triển khai đầy đủ của thuật toán LIME (Local Interpretable Model-agnostic Explanations) cho bài toán phân loại ảnh rác thải, sử dụng mobilenet_v3_small làm mô hình hộp đen và Ridge Regression làm mô hình giải thích cục bộ.  
 Mô hình phân loại 6 lại rác thải: 
 1. cardboard  
