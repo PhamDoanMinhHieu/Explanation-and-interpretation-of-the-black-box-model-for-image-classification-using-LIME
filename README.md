@@ -1,7 +1,7 @@
 # Explanation and interpretation of the black box model for image classification using LIME
 Một triển khai đầy đủ của thuật toán LIME (Local Interpretable Model-agnostic Explanations) cho bài toán phân loại ảnh, sử dụng mobilenet_v3_small làm mô hình hộp đen và Ridge Regression làm mô hình giải thích cục bộ.  
-![Kết quả giả thích phân lại rác thải chai thủy tinh](images/capture_640x480_20251210_150005.jpg)
-![Kết quả giả thích phân lại bìa cứng ](images/capture_640x480_20251210_150239.jpg)
+![Kết quả giả thích phân lại rác thải chai thủy tinh](layout/result_2.jpg)
+![Kết quả giả thích phân lại bìa cứng ](layout/result_1.jpg)
 # 🎯 Giới thiệu  
 Mặc dù các mô hình deep learning đạt độ chính xác cao, chúng thường hoạt động như "hộp đen" - khó hiểu được lý do đưa ra dự đoán. LIME giải quyết vấn đề này bằng cách:  
 + ✅ Giải thích bất kỳ mô hình phân loại ảnh nào (model-agnostic).    
